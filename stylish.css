@@ -1,0 +1,106 @@
+/* Hide Ads */
+#dale_anonymous_homepage_top_for_crazy_ad,
+#dale_anonymous_homepage_movie_bottom,
+#dale_anonymous_home_page_middle,
+#dale_anonymous_home_page_bottom,
+#dale_book_home_left_top,
+#dale_book_home_left_middle,
+#dale_book_home_bottem_right,
+#dale_book_home_top_right,
+#movie_home_left_bottom,
+#dale_movie_homepage_bottom,
+#dale_movie_home_top_right,
+#dale_music_home_top_right,
+#dale_music_home_left_middle,
+#dale_location_home_top_right,
+#dale_location_home_bottom_right,
+#dale_group_explore_bottom_right,
+#dale_group_home_new_top_right,
+#dale_group_people_bottom_banner,
+#dale_newgroup_home_bottom_right_201211,
+#dale_group_topic_new_top_right,
+#dale_group_topic_new_bottom_right,
+#dale_group_topic_bottom_super_banner,
+#dale_dongxi_top_banner,
+#dale_homepage_login_top_right,
+#dale_homepage_login_bottom_right {
+    display:none;
+}
+
+/* Global */
+html {
+	background:#2A2C2A url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAgMAAAANjH3HAAAACVBMVEUaGhohISElJSUh9lebAAAB20lEQVRIx4XWuZXDMAwE0C0SAQtggIIYoAAEU+aKOHhYojTrYP2+QfOW/5QIJOih/q8HwF/pb3EX+UPIveYcQGgEHiu9hI+ihEc5Jz5KBIlRRRaJ1JtoSAl5Hw96hLB1/up1tnIXOck5jZQy+3iU2hAOKSH1JvwxHsp+5TLF5MOl1/MQXsVs1miXc+KDbYydyMeUgpPQreZ7fWidbNhkXNJSeAhc6qHmHD8AYovunYyEACWEbyIhNeB9fRrH3hFi0bGPLuEW7xCNaohw1vAlS805nfsrTspclB/hVdoqusg53eH7FWot+wjYpOViX8KbFFKTwlnzvj65P9H/vD0/hibYBGhPwlPO8TmxRsaxsNnrUmUXpNhirlJMPr6Hqq9k5Xn/8iYQHYIuQsWFC6Z87IOxLxHphSY4SpuiU87xJnJr5axfeRd+lnMExXpEWPpuZ1v7qZdNBOjiHzDREHX5fs5Zz9p6X0vVKbKKchlSl5rv+3p//FJ/PYvoKryI8vs+2G9lzRmnEKkh+BU8yDk515jDj/HAswu7CCz6U/Mxb/PnC9N41ndpU4hUU7JGk/C9PmP/M2xZYdvBW2PObyf1IUiIzoHmHW9yTncliYs9A9tVNppdShfgQaTLMf+j3X723tLeHgAAAABJRU5ErkJggg==) repeat;
+}
+#db-global-nav {
+	background-color:#242622;
+    border-bottom:1px solid #454545;
+}
+#db-nav-sns, #db-nav-group {
+	background-color:rgba(36,40,38,0.7);
+    border-bottom:1px solid #454545;
+}
+#db-isay .highlighter {
+	background:transparent;
+}
+#db-isay .btn {
+	background:rgba(36,40,38,0.85);
+}
+#db-isay.isay-disable .btn .bn-submit input {
+    border-color: #454545!important;
+    background: #5060b0!important;
+    color: #ddd!important;
+    cursor: text;
+}
+.status-item .block, .notify-mod {
+	background:rgba(36,40,38,0.7);
+}
+.status-item .attachment {
+    border-top:1px solid #454545;
+    background:rgba(36,40,38,0.7);
+    margin-top:0px;
+}
+.status-item .bd a.btn-fav, .status-item .bd .rec-sec a {
+    display: inline-block;
+    height: 22px;
+    padding: 0 7px 0 22px;
+    border: 1px solid #999;
+    color: #ba9;
+}
+
+.status-item .bd {
+    border-bottom: 1px solid #454545;
+}
+
+.status-item .mod .group-pics .group-pic {
+	border: 1px solid #454545;
+}
+
+.status-item .mod blockquote {
+	filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+/* Group */
+.pro-banner {
+	display:none !important;
+}
+
+.article .topic-content .topic-content {
+	color:#a0a0a0;
+}
+
+.topic-reply li {
+	background-color:rgba(36,40,38,0.7);
+    color:#a0a0a0;
+}
+.topic-reply li .bg-img-green {
+	background-color:transparent;
+    color:#a0a0a0;
+}
+.topic-reply li .bg-img-green h4 {
+	background-color:transparent;
+    color:#a0a0a0;
+}
+/* Douban.fm */
+#ft-ads-slot {
+	display:none;
+}
