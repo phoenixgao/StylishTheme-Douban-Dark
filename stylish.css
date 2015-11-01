@@ -21,8 +21,16 @@
 #dale_group_topic_new_top_right,
 #dale_group_topic_new_bottom_right,
 #dale_group_topic_bottom_super_banner,
+#dale_group_special3,
+#dale_group_home_middle_right,
+#dale_each_group_home_bottom_right,
+.qrcode-app,
 #dale_dongxi_top_banner,
+#dale_people_photos_album_right_bottom,
 #dale_homepage_login_top_right,
+#dale_homepage_login_bottom_middle_right,
+#dale_explore_home_middle_right,
+#dale_explore_bottom_banner,
 #dale_homepage_login_bottom_right {
     display:none;
 }
@@ -30,6 +38,42 @@
 /* Global */
 html {
 	background:#2A2C2A url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAgMAAAANjH3HAAAACVBMVEUaGhohISElJSUh9lebAAAB20lEQVRIx4XWuZXDMAwE0C0SAQtggIIYoAAEU+aKOHhYojTrYP2+QfOW/5QIJOih/q8HwF/pb3EX+UPIveYcQGgEHiu9hI+ihEc5Jz5KBIlRRRaJ1JtoSAl5Hw96hLB1/up1tnIXOck5jZQy+3iU2hAOKSH1JvwxHsp+5TLF5MOl1/MQXsVs1miXc+KDbYydyMeUgpPQreZ7fWidbNhkXNJSeAhc6qHmHD8AYovunYyEACWEbyIhNeB9fRrH3hFi0bGPLuEW7xCNaohw1vAlS805nfsrTspclB/hVdoqusg53eH7FWot+wjYpOViX8KbFFKTwlnzvj65P9H/vD0/hibYBGhPwlPO8TmxRsaxsNnrUmUXpNhirlJMPr6Hqq9k5Xn/8iYQHYIuQsWFC6Z87IOxLxHphSY4SpuiU87xJnJr5axfeRd+lnMExXpEWPpuZ1v7qZdNBOjiHzDREHX5fs5Zz9p6X0vVKbKKchlSl5rv+3p//FJ/PYvoKryI8vs+2G9lzRmnEKkh+BU8yDk515jDj/HAswu7CCz6U/Mxb/PnC9N41ndpU4hUU7JGk/C9PmP/M2xZYdvBW2PObyf1IUiIzoHmHW9yTncliYs9A9tVNppdShfgQaTLMf+j3X723tLeHgAAAABJRU5ErkJggg==) repeat;
+    color:#a0a0a0;
+}
+body p {
+	font-size:14px;
+}
+a:visited {
+    color: #99c;
+    text-decoration: none;
+}
+a:link {
+    color: #6ad;
+    text-decoration: none;
+}
+textarea {
+	background-color:rgba(36,40,38,0.7);
+    border:1px solid #454545;
+}
+h1 {
+	color:#698979;
+}
+.sharing-button {
+    background-color:rgba(36,40,38,0.7);
+    border:1px solid #454545;
+}
+.sharing-layer {
+    background-color:rgba(36,40,38,0.85);
+    border:1px solid #454545;
+}
+.tabs {
+    border-bottom: 1px solid #454545;
+}
+.tabs a.on:link, .tabs a.on:visited, .tabs a.on:hover, .tabs a.on:active {
+    color: #000;
+}
+#footer {
+    border-top: 1px dashed #454545;
 }
 #db-global-nav {
 	background-color:#242622;
@@ -38,6 +82,36 @@ html {
 #db-nav-sns, #db-nav-group {
 	background-color:rgba(36,40,38,0.7);
     border-bottom:1px solid #454545;
+}
+
+.infobox .ex1, .infobox .ex2 {
+	display:none;
+}
+
+.infobox .bd {
+    padding:9px 9px;
+    background:rgba(36,40,38,0.7);
+    border: 1px solid #454545;
+}
+.sep-line {
+    border-bottom: 1px solid #454545;
+}
+
+.nav-items li img {
+	filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+#db-nav-sns .inp, .nav-search .inp input, #db-nav-group .nav-search .inp {
+	background:transparent;
+    color:#b9b9b9;
+}
+#db-nav-sns .inp-btn, #db-nav-group .nav-search .inp-btn {
+	filter:invert(80%);
+    -webkit-filter:invert(80%);
+}
+#db-nav-sns .inp, #db-nav-group .nav-search .inp {
+	border: 1px solid #454545;
 }
 #db-isay .highlighter {
 	background:transparent;
@@ -51,8 +125,11 @@ html {
     color: #ddd!important;
     cursor: text;
 }
-.status-item .block, .notify-mod {
+.status-item .block, .notify-mod, .user-card, .group-board {
 	background:rgba(36,40,38,0.7);
+}
+.group-intro {
+	color:#a0a0a0;
 }
 .status-item .attachment {
     border-top:1px solid #454545;
@@ -67,6 +144,10 @@ html {
     color: #ba9;
 }
 
+.aside .mod .hd {
+	border-bottom:1px solid #454545;
+}
+
 .status-item .bd {
     border-bottom: 1px solid #454545;
 }
@@ -79,15 +160,46 @@ html {
 	filter: invert(100%);
     -webkit-filter: invert(100%);
 }
+
+.board-list li {
+    border-bottom: 1px dashed #454545;
+}
+
+.olt td {
+    border-bottom: 1px dashed #454545;
+}
 /* Group */
 .pro-banner {
 	display:none !important;
+}
+.profile-nav {
+    border-bottom: 1px solid #454545;
+}
+
+.profile-entry {
+    background-color:rgba(36,40,38,0.7);
+}
+.group-cards li {
+    border: 1px solid #454545;
+}
+.topics h2 {
+    border-bottom: 1px solid #454545;
+}
+
+
+#g-side-info-member {
+    border-bottom: 1px solid #454545;
+}
+.topic-list li {
+    border-bottom: 1px dashed #454545;
 }
 
 .article .topic-content .topic-content {
 	color:#a0a0a0;
 }
-
+.topics {
+    border-top: 1px solid #454545;
+}
 .topic-reply li {
 	background-color:rgba(36,40,38,0.7);
     color:#a0a0a0;
@@ -99,6 +211,9 @@ html {
 .topic-reply li .bg-img-green h4 {
 	background-color:transparent;
     color:#a0a0a0;
+}
+#group-contact {
+	display:none;
 }
 /* Douban.fm */
 #ft-ads-slot {
